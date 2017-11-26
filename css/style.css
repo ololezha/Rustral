@@ -1,0 +1,854 @@
+@font-face {
+  font-family: "TT Supermolot Black";
+  src: url("../fonts/TT Supermolot Black.ttf");
+}
+@font-face {
+  font-family: "TT Supermolot Thin";
+  src: url("../fonts/TT Supermolot Thin.ttf");
+}
+@font-face {
+  font-family: "TT Supermolot Regular";
+  src: url("../fonts/TT Supermolot Regular.ttf");
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #fff;
+    background: url("../img/bbbbg.png") no-repeat center 90px;
+    min-height: 10000px;
+    font-family: "TT Supermolot Regular";
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+a {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.container {
+/*outline: 1px dashed red;*/
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;       
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*----------HEADER----------*/
+.main-header_bg {
+    background-color: #2d2d2d;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.main-header_logo {
+    padding-top: 15px;
+    margin-right: 15px;
+}
+.main-header_company {
+    padding-top: 15px;
+    margin-right: 25px;
+}
+.main-header_primary-title {
+    font-family: "TT Supermolot Black";
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.main-header_secondary-title {
+    font-family: "TT Supermolot Thin";
+}
+.main-header_phone {
+    padding-top: 20px;
+    margin-right: 15px;
+}
+.main-header_phone_primary-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.main-header_request-call {
+    padding-top: 20px;
+    margin-right: 20px;
+}
+.main-header_request-call_title {
+    color: #bc333d;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.main-header_navigation-box {
+    display: flex;
+}
+.main-header_navigation {
+    padding-top: 10px;
+    width: 106px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+.main-header_navigation:last-child {
+    margin-right: 0;
+}
+.main-header_navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 212px;
+}
+.main-header_navigation-item a {
+    font-size: 16px;
+    line-height: 36px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+/*----------SECTION-TOP----------*/
+.section-top_title {
+    margin-top: 40px;
+    text-align: center;
+    font-family: "TT Supermolot Black";
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.section-top_secondary-title {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+.section-top_features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.section-top-features-box {
+    padding-left: 15px;
+}
+.features-item {
+    font-size: 17px;
+    background: url("../img/features-item.png") no-repeat 0px 5px;
+    line-height: 30px;
+    padding-left: 35px;
+}
+.order-form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+}
+.order-form_title {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.order-form input {
+    border: 2px solid #b2b2b2;
+    background-color: #ffffff;
+    padding: 17px 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #626262;
+}
+.btn {
+    font-family: "TT Supermolot Black";
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 17px 0;
+    text-align: center;
+    background-color: #b42731;
+    display: block;
+}.btn:hover {
+    font-family: "TT Supermolot Black";
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 17px 0;
+    text-align: center;
+    background-color: #b42745;
+}
+/*----------SECTION-CAUSES----------*/
+.section-causes {
+    margin-top: 290px;
+}
+.section-causes_title {
+    min-height: 210px;
+}
+.section-causes_title-6 {
+    color: #2d2d2d;
+    font-family: "TT Supermolot Thin";
+    font-size: 220px;
+}
+.section-causes_title-first {
+    color: #2d2d2d;
+    font-size: 66px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.section-causes_title-secondary {
+    color: #2d2d2d;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 25px;
+    padding-left: 5px;
+}
+.first-title-box {
+    float: left;
+    margin-right: 20px;
+}
+.second-title-box {
+    width: 310px;
+    float: left;
+}
+.section-causes_features {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.section-causes_features-item {
+    width: 33%;
+    text-align: center;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+.section-causes_features-item img {
+    height: 68px;
+}
+.causes_features-text {
+    text-align: left;
+    color: #333333;
+}
+.causes_features-title {
+    color: #333333;
+    font-family: "TT Supermolot Black";
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 230px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    min-height: 36px;
+    position: relative;
+    letter-spacing: 1px;
+}
+.causes_features-title:after {
+    content: "";
+    background: url(../img/icons/afterico.png) no-repeat;
+    width: 36px;
+    height: 14px;
+    position: absolute;
+    bottom: -35px;
+    left: 42%;
+}
+.section-calculation {
+    margin-top: 135px;
+}
+.section-calculation-box {
+    margin-left: 350px;
+}
+.calculation-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 600px;
+    height: 220px;
+    padding-right: 20px;
+}
+.calculation-form_title {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.calculation-form input {
+    border: 2px solid #b2b2b2;
+    background-color: #ffffff;
+    padding: 17px 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #626262;
+    width: 290px;
+    margin-right: 10px;
+}
+.calculation-form textarea {
+    background-color: #ffffff;
+    border: 2px solid #b2b2b2;
+    font-size: 18px;
+    color: #626262;
+    width: 290px;
+    height: 128px;
+    padding: 17px 20px;
+    font-weight: 600;
+    font-family: "TT Supermolot Regular";
+    margin: 0;
+}
+.btn_calculation {
+    background-color: #2d2d2d;
+    width: 290px;
+    margin-top: 10px;
+    padding: 21px 0;
+}
+.btn_calculation:hover {
+    background-color: #2d2d3e;
+    padding: 21px 0;
+}
+.section-calculation_reviews {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+.reviews_title {
+    color: #2e2e2e;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-right: 65px;
+    text-align: end;
+}
+.reviews_pics {
+    display: flex;
+    padding-right: 10px;
+}
+.reviews_pics img {
+    margin-right: 10px;
+}
+/*----------SECTION-GOODS----------*/
+.section-goods {
+    color: #2d2d2d;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 155px;
+}
+.section-goods_title {
+    font-family: "TT Supermolot Thin";
+    font-size: 161px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    position: relative;
+}
+.section-goods_secondary-title {
+    font-size: 24px;
+}
+.section-goods_title:before {
+    content: "";
+    background: url(../img/icons/goods_ico.png) no-repeat;
+    width: 36px;
+    height: 34px;
+    position: absolute;
+    bottom: 160px;
+    left: 48%;
+}
+.goods_features-box {
+    color: #ffffff;
+    font-family: "TT Supermolot Regular";
+    font-weight: 400;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 65px;
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.goods_features-item {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 85px;
+}
+.goods_features-item:last-child {
+    width: 720px;
+    height: 150px;
+    flex-wrap: wrap;
+    flex-direction: inherit;
+    padding-right: 25px;
+}
+.goods_features-title {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.goods_features-list {
+    font-size: 18px;
+    text-transform: lowercase;
+}
+.btn_goods {
+    width: 300px;
+}
+/*----------SECTION-PARTNERS----------*/
+.section-partners {
+    margin-top: 10px;
+    /*box-shadow: 0px 13px 8px -12px grey;*/
+}
+.partners_title {
+    color: #2d2d2d;
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+.partners_title:after {
+    content: "";
+    background: url(../img/icons/afterico.png) no-repeat;
+    width: 36px;
+    height: 14px;
+    position: absolute;
+    bottom: -30px;
+    left: 465px;
+}
+.partners_pics-box {
+    display: flex;
+    justify-content: space-around;
+}
+.section-employees {
+    margin-top: 40px;
+}
+.employees_title {
+    color: #2d2d2d;
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.employees_title:after {
+    content: "";
+    background: url(../img/icons/afterico.png) no-repeat;
+    width: 36px;
+    height: 14px;
+    position: absolute;
+    bottom: -30px;
+    left: 465px;
+}
+.employees_pics-box {
+    display: flex;
+    justify-content: space-around;
+}
+.employees_pics {
+    width: 19%;
+}
+.employees_name {
+    color: #2d2d2d;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+.employees_position {
+    color: #2d2d2d;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+/*----------SECTION-MISSION----------*/
+.section-mission {
+    color: #2d2d2d;
+    font-family: "TT Supermolot Regular";
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding-bottom: 75px;
+}
+.mission-box {
+    width: 51%;
+}
+.mission_title {
+    font-family: "TT Supermolot Thin";
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 115px;
+    margin-bottom: 50px;
+}
+.misson_text {
+    color: #5d5d5d;
+    font-size: 16px;
+    text-transform: none;
+    margin-bottom: 100px;
+    position: relative;
+}
+.misson_text:after {
+    content: "";
+    width: 108px;
+    height: 3px;
+    background-color: #2d2d2d;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+.cerificats_title {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.cerificat-pics_box {
+    display: flex;
+}
+.cerificat-pics_box img {
+    margin-right: 10px;
+}
+/*----------SECTION-HISTORY----------*/
+.section-history {
+    color: #ffffff;
+    padding: 65px 20px;
+}
+.history_title {
+    font-family: "TT Supermolot Thin";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.history_text-box {
+    display: flex;
+}
+.history_text {
+    font-family: "TT Supermolot Regular";
+    font-size: 16px;
+    width: 50%;
+    padding-right: 20px;
+}
+/*----------SECTION-WE----------*/
+.section-we {
+    margin-bottom: 450px;
+}
+.we_title {
+    color: #000000;
+    font-family: "TT Supermolot Thin";
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/*----------SECTION-PUBLICATIONS----------*/
+.section-publication {
+    margin-bottom: 70px;
+}
+.publication_title {
+    color: #2d2d2d;
+    font-family: "TT Supermolot Thin";
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.publication-box {
+    display: flex;
+    flex-direction: column;
+}
+.publication-box_pics {
+    height: 320px;
+}
+.publication-box_pics img {
+    width: 100%;
+}
+.publication_text {
+    color: #5d5d5d;
+    font-family: "TT Supermolot Regular";
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    float: right;
+    width: 410px;
+    position: relative;
+    bottom: 180px;
+    right: 40px;
+}
+/*----------SECTION-DOCUMENTS----------*/
+.section-documents {
+    padding-bottom: 320px;
+}
+.documents_title {
+    color: #2d2d2d;
+    font-family: "TT Supermolot Regular";
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.documents-box {
+    width: 400px;
+    padding-right: 70px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    justify-content: space-between;
+}
+.box_left {
+    float: left;
+    text-align: left;
+}
+.box_right {
+    float: right;
+    text-align: right;
+}
+.documents_secondary-title {
+    color: #ffffff;
+    font-family: "TT Supermolot Regular";
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /*margin-bottom: 40px;*/
+}
+.documents-list {
+    text-align: left;
+}
+.documents-item {
+    color: #ffffff;
+    font-family: "TT Supermolot Regular";
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn_documents {
+    color: #ffffff;
+    font-family: "TT Supermolot Thin";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    width: 350px;
+    padding-left: 40px;
+}
+.btn_documents:hover {
+    color: #ffffff;
+    font-family: "TT Supermolot Thin";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 350px;
+    padding-left: 40px;
+}
+.btn_documents_right {
+    background-color: #2d2d2d;
+}
+.btn_documents_right:hover {
+    background-color: #2d2d3e;
+}
+.btn_documents:after {
+    content: "";
+    background: url(../img/icons/save.png) no-repeat;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    bottom: 9px;
+    left: 10px;
+}
+/*----------SECTION-VACANCY----------*/
+.section-vacancy {
+    margin-top: 70px;
+}
+.vacancy_title {
+    color: #2d2d2d;
+    font-family: "TT Supermolot Thin";
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 170px;
+}
+.vacancy-box {
+    display: flex;
+}
+.vacancy-box_left {
+    width: 50%;
+    padding: 0 50px;
+
+}
+.vacancy-box_right {
+    width: 50%;
+    padding: 0 50px;
+}
+.vacancy-box_title {
+    color: #191919;
+    font-family: "TT Supermolot Regular";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 70px;
+    padding-top: 22px;
+}
+.vacancy_text {
+    color: #191919;
+    font-family: "TT Supermolot Regular";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+    height: 210px;
+}
+.btn_vacancy {
+    width: 250px;
+    margin: 0 auto;
+}
+/*----------SECTION-INFO----------*/
+.section-information {
+    margin-top: 200px;
+    padding-bottom: 390px;
+}
+.information-box {
+    float: right;
+    width: 50%;
+    margin-right: 10px;
+    padding: 0 15px;
+}
+.information_title {
+    color: #ffffff;
+    font-family: "TT Supermolot Regular";
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.information_text {
+    color: #ffffff;
+    font-family: "TT Supermolot Regular";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.btn_info {
+    background-color: #2d2d2d;
+    width: 240px;
+}
+.btn_info:hover {
+    background-color: #2d2d3e;
+}
+/*----------SECTION-MAIN----------*/
+.main-section {
+    padding: 0 100px;
+    margin-top: 65px;
+    padding-bottom: 165px;
+}
+.main_first-title {
+    text-align: center;
+    color: #2d2d2d;
+    font-family: "TT Supermolot Regular";
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.main_second-title {
+    text-align: center;
+    color: #2d2d2d;
+    font-family: "TT Supermolot Regular";
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.main_text {
+    color: #5d5d5d;
+    font-family: "TT Supermolot Regular";
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-list {
+    color: #006cff;
+    line-height: 24px;
+}
+.second-list {
+    color: #006cff;
+    line-height: 24px;
+}
+/*----------SECTION-CONTACTS----------*/
+.section-contacts {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.contacts-box {
+    display: flex;
+    justify-content: space-around;
+    /*padding: 0 60px;*/
+    margin-bottom: 50px;
+    position: relative;
+}
+.contacts-box:after {
+    content: "";
+    width: 251px;
+    height: 1px;
+    background-color: #000;
+    opacity: 0.3;
+    position: absolute;
+    top: 85px;
+    left: 354px;
+}
+.contacts-box p {
+   text-align: center;
+   color: #2d2d2d;
+   font-family: "TT Supermolot Regular";
+   font-weight: 400;
+   width: 33%;
+}
+.contacts_title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.contact_adress {
+    font-size: 16px;
+}
+.contact_adress span {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.contacts_phone {
+    font-size: 16px;
+}
+.contacts_phone span {
+    font-size: 24px;
+}
+.btn_contacts {
+    width: 240px;
+    display: block;
+    margin: 0 auto;
+}
+/*----------SECTION-MAP----------*/
+.section-map {
+    /*background: url("../img/map.png");*/
+    height: 375px;
+}
+/*----------SECTION-FOOTER----------*/
+.sosial_title {
+    color: #ffffff;
+    font-family: "TT Supermolot Regular";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 22px;
+}
+.social-btn_box {
+    display: flex;
+    justify-content: space-around;
+}
+.social_btn {
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+.vk {
+    background: url("../img/icons/vk.png");
+}
+.fb {
+    background: url("../img/icons/fb.png");
+}
+.linked {
+    background: url("../img/icons/linked.png");
+}
+.google {
+    background: url("../img/icons/google.png");
+}
